@@ -11,7 +11,7 @@ body{
     align-items:center;
     text-align: center;
     
-    background-image: url("http://getwallpapers.com/wallpaper/full/a/d/8/175219.jpg");
+    background-image: url("../resources/artwork.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,3 +29,62 @@ body{
     
 }
 
+#myWorkWrapper{
+    margin: 0 auto;
+}
+
+#myWork{
+    margin-bottom: 24px;
+}
+
+.card{
+    margin-bottom: 50px;
+}
+
+.hero2{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    
+    background-image: url("../resources/artworkflipped.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    
+    margin-bottom: 50px;
+    
+}
+
+#aboutMe{
+    margin-bottom: 25px;
+}
+
+.hero3{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    
+    background-image: url("../resources/artwork.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    
+    margin-bottom: 50px;
+    
+}
+
+#react{
+    margin-bottom:50px;
+}
