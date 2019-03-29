@@ -11,13 +11,36 @@
     </head>
     <body>
         <div class="container-flex">
-<!--Hero-->
-            <section class="hero"> 
-                <div class="hero-inner">
-                    <h1 id="title1">My name is Will...</h1>
-                    <h2 id="title2">...and web design is my passion</h2>
+
+
+
+            <header id="header">
+                <div class="overlay"></div>
+                <video autoplay="autoplay" muted="muted" loop="loop">
+                    <source src="./resources/treevid.mp4" type="video/mp4">
+                </video>
+                <div class="container h-100">
+                    <div class="d-flex h-100 text-center align-items-center">
+                        <div class="w-100 text-white">
+                            <h1 class="display-3">William Boakye</h1>
+                            <p class="lead mb-0">Web design is my passion.</p><br>
+                            <ul class="nav nav-pills nav-justified" id="nav">
+                                <li class="nav-item">
+                                    <a class="flex-sm-fill text-sm-center nav-link" href="#workLink">My Work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="flex-sm-fill text-sm-center nav-link" href="#aboutLink">About Me</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="flex-sm-fill text-sm-center nav-link" href="#contact">Contact Me</a>
+                                </li>
+                            </ul>
+                            <br><br><br><br><br><br><br><a id="workLink"></a>
+                        </div>
+                    </div>
                 </div>
-            </section>
+            </header>
+                    
 
 
 <!--Cards-->
@@ -25,7 +48,7 @@
                 <div class="container">
                    <div class="row-flex justify-center" id="myWorkWrapper">
                         <div class="col-sm" id="myWork">
-                           <h3>Here's some of my work</h3>
+                           <h3 id="work">Here's some of my work</h3>
                         </div>
                    </div>
                    <div class="row">
@@ -68,10 +91,11 @@
             
             
            
-            
-            <section class="hero2"> 
+                
+            <section class="hero2" id="hero2"> 
+                <br><br><br><br><br><br><a id="aboutLink"></a>
                 <div class="hero-inner2">
-
+                    <h1 id="about">About Me</h1>
                 </div>
             </section>
 
@@ -79,11 +103,7 @@
 <!--About Me/ Skills-->
 
             <div class="container ">
-                <div class="row-flex justify-center" id="myWorkWrapper">
-                        <div class="col-sm" id="myWork">
-                        <h3>About Me</h3>
-                        </div>
-                </div>
+
                 <div class="row">
                     <div class="col-lg-6" id="aboutMe">
                         <p>It is a long established fact that a reader will be distracted by the readable content of 
@@ -99,6 +119,7 @@
                                 <i class="fab fa-html5 fa-4x "></i><br>
                             </div>
                             <div class= "col-9">
+                                <br>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" 
                                     style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -110,6 +131,7 @@
                                     <i class="fab fa-css3-alt fa-4x"></i>
                             </div>
                             <div class= "col 9">
+                                <br>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" 
                                     style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -121,6 +143,7 @@
                                 <i class="fab fa-js-square fa-4x"></i>
                             </div>
                             <div class= "col 9">
+                                <br>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" 
                                     style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -132,6 +155,7 @@
                                 <i class="fab fa-react fa-4x"></i>
                             </div>
                             <div class= "col 9">
+                                <br>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" 
                                     style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -148,9 +172,59 @@
 
             <section class="hero3"> 
                 <div class="hero-inner3">
-
+                    <h3 id="contact">Interested in doing a project together?</h3>
+                    <h5 id="contact">Contact me!</h5>       
                 </div>
             </section>
+
+
+
+            
+                
+                    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+                            <div class="container text-center">
+                                    <ul class="list-unstyled list-inline text-center">
+                                    <li class="list-inline-item">
+                                        <button type="button" class="btn btn-dark pmd-btn-fab pmd-ripple-effect pmd-btn-raised" id="cButton" >
+                                        <a href="https://www.instagram.com/whataboutwill/" class="fab fa-instagram fa-2x"></a>
+                                        </button>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <button type="button" class="btn btn-dark pmd-btn-fab pmd-ripple-effect pmd-btn-raised" id="cButton">
+                                        <a href="http://twitter.com/boakyetweets" class="fab fa-twitter fa-2x"></a>
+                                        </button>
+                                    </li>
+                                    <li class="list-inline-item">
+                                            <button type="button" class="btn btn-dark pmd-btn-fab pmd-ripple-effect pmd-btn-raised" id="cButton">
+                                            <a href="github.com/wboakye" class="fab fa-github fa-2x" ></a>
+                                            </button>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <button type="button" class="btn btn-dark pmd-btn-fab pmd-ripple-effect pmd-btn-raised" id="cButton">
+                                        <a href="https://www.linkedin.com/in/william-boakye-064824a8/" class="fab fa-linkedin-in fa-2x"></a>
+                                        </button>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <button type="button" class="btn btn-dark pmd-btn-fab pmd-ripple-effect pmd-btn-raised" id="cButton">
+                                        <a href="mailto: wboakye@gmail.com" class="fas fa-at fa-2x" id="cButton" ></a>
+                                        </button>
+                                    </li>
+                                    </ul>
+                            </div>
+                          </footer>
+                        
+
+  
+
+
+
+
+
+            
+
+
+
+        
 
 
 
